@@ -1,0 +1,13 @@
+
+a {
+    transition: color 0.3s ease;
+}
+
+img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}

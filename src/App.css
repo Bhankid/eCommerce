@@ -1,0 +1,24 @@
+
+nav {
+    z-index: 999;
+}
+
+
+/* .text-container {
+    font-size: 1.2rem;
+    color: white;
+    transition: opacity 0.8s ease-in-out;
+    min-width: 300px;
+    opacity: 0;
+} */
+
+/* Media query for mobile devices */
+/* @media (max-width: 768px) {
+    .text-container {
+        font-size: 0.8rem;
+    }
+}
+
+.text-container.visible {
+    opacity: 1;
+} */
