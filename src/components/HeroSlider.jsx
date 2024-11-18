@@ -73,14 +73,14 @@ export function HeroSlider() {
         <div className="w-full md:w-1/3 flex flex-col space-y-4 p-4">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden h-48">
             <img
-              src="public/Images/dromjor-side001.jpg"
+              src="src/assets/Images/dromjor-side001.jpg"
               alt="Secondary image 1"
               className="w-full h-full object-cover secondary-image"
             />
           </div>
           <div className="bg-white rounded-lg shadow-lg overflow-hidden h-48">
             <img
-              src="public/Images/dromjor-side002.jpg"
+              src="src/assets/Images/dromjor-side002.jpg"
               alt="Secondary image 2"
               className="w-full h-full object-cover secondary-image"
             />
