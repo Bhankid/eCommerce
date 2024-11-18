@@ -80,7 +80,7 @@ export function Cart({ isOpen, onClose }) {
         </div>
         <p className="text-center text-gray-600">
           or{" "}
-          <a href="#" className="text-teal-600 ">
+          <a href="#" className="text-teal-600">
             Continue Shopping →
           </a>
         </p>
