@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { Header } from "./components/Header";
 import { NavBar } from "./components/NavBar";
@@ -15,12 +15,29 @@ function App() {
       <Router>
         <Header />
         <NavBar />
-        <HeroSlider />
-        <HeroCard />
-        <AppRoutes />
+        <MainContent />
         <Footer />
       </Router>
     </ErrorBoundary>
+  );
+}
+
+function MainContent() {
+  const location = useLocation();
+
+  // Check if the current path is the home page
+  const isHomePage = location.pathname === "/";
+
+  return (
+    <>
+      {isHomePage && (
+        <>
+          <HeroSlider />
+          <HeroCard />
+        </>
+      )}
+      <AppRoutes />
+    </>
   );
 }
 
