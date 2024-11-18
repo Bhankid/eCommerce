@@ -23,7 +23,7 @@ const About = () => {
           </div>
           <div className="image-content w-full md:w-1/2 p-4">
             <img
-              src="src/assets/Images/img1.jpg"
+              src="/Images/img1.jpg"
               alt="Fresh Produce"
               className="w-full h-auto rounded-lg"
             />
@@ -53,7 +53,7 @@ const About = () => {
           </div>
           <div className="image-content w-full md:w-1/2 p-4">
             <img
-              src="src/assets/Images/img2.jpg"
+              src="/Images/img2.jpg"
               alt="Farm Fresh"
               className="w-full h-auto rounded-lg"
             />
@@ -76,7 +76,7 @@ const About = () => {
           </div>
           <div className="image-content w-full md:w-1/2 p-4">
             <img
-              src="src/assets/Images/img1.jpg"
+              src="/Images/img1.jpg"
               alt="Delivery Service"
               className="w-full h-auto rounded-lg"
             />

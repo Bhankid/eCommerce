@@ -25,7 +25,7 @@ export function HeroCard() {
       <div className="w-full max-w-sm lg:mt-0 lg:mb-0">
       
         <img
-          src="src/assets/Images/dromjor-bg2.png"
+          src="/Images/dromjor-bg2.png"
           alt="Person holding a phone displaying farm produce and a basket of fresh fruits and vegetables"
           className="w-full"
         />

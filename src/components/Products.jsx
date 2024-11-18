@@ -9,12 +9,12 @@ export const Products = ({ addToCart }) => {
     {
       id: 1,
       name: "Full Goat",
-      image: "src/assets/Images/Full Goat.jpg",
+      image: "public/Images/Full Goat.jpg",
     },
     {
       id: 2,
       name: "Hide meat",
-      image: "src/assets/Images/Wele.jpg",
+      image: "public/Images/Wele.jpg",
     },
     {
       id: 3,
