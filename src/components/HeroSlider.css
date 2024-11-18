@@ -14,6 +14,29 @@
         }
 
 
+
+/* Base styles for pagination dots */
+.pagination-dot {
+  width: 0.6rem; 
+  height: 0.6rem; 
+  border-radius: 50%;
+  background-color: #ccc; 
+}
+
+/* Active dot */
+.pagination-dot.active {
+  background-color: white;
+}
+
+/* Media query for mobile view */
+@media (max-width: 640px) { 
+  .pagination-dot {
+    width: 0.4rem; 
+    height: 0.4rem; 
+  }
+}
+
+
         .glass-button {
   background: rgba(255, 255, 255, 0.13); 
   border: 1px solid rgba(255, 255, 255, 0.457); 

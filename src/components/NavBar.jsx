@@ -140,7 +140,7 @@ export function NavBar() {
                 <span className="mt-0">0594815598</span>
               </a>
             </button>
-            <i className="fas fa-search text-white nav-item py-2 lg:py-0"></i>
+            <i className="fas fa-search text-white nav-item py-2 lg:py-0 search-icon"></i>
           </div>
         </div>
         <div className="relative w-50 h-50">

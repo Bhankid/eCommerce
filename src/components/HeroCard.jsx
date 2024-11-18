@@ -10,7 +10,6 @@ export function HeroCard() {
           Welcome to Domjor Ventures
         </h1>
         <p className="text-lg text-center lg:text-left lg:mt-0 lg:mb-0">
-         
           Welcome to Dromjor Ventures, your premier partner in delivering fresh
           farm produce directly to your doorstep. We are committed to providing
           the highest quality fruits, vegetables, and other farm produce to our
@@ -23,9 +22,8 @@ export function HeroCard() {
         </p>
       </div>
       <div className="w-full max-w-sm lg:mt-0 lg:mb-0">
-      
         <img
-          src="/Images/dromjor-bg2.png"
+          src="src/assets/Images/dromjor-bg2.png"
           alt="Person holding a phone displaying farm produce and a basket of fresh fruits and vegetables"
           className="w-full"
         />

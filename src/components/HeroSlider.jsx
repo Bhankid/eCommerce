@@ -63,22 +63,22 @@ export function HeroSlider() {
             {slides.map((_, index) => (
               <div
                 key={index}
-                className={`w-2 h-2 rounded-full ${
-                  index === currentSlide ? "bg-white" : "bg-gray-400"
+                className={`pagination-dot ${
+                  index === currentSlide ? "active" : ""
                 }`}
               ></div>
             ))}
           </div>
         </div>
         <div className="w-full md:w-1/3 flex flex-col space-y-4 p-4">
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden h-48">
+          <div className="bg-white rounded-lg shadow-sm overflow-hidden h-48">
             <img
               src="src/assets/Images/dromjor-side001.jpg"
               alt="Secondary image 1"
               className="w-full h-full object-cover secondary-image"
             />
           </div>
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden h-48">
+          <div className="bg-white rounded-lg shadow-sm overflow-hidden h-48">
             <img
               src="src/assets/Images/dromjor-side002.jpg"
               alt="Secondary image 2"
