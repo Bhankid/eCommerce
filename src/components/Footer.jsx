@@ -1,4 +1,4 @@
-import "./Footer.css"; 
+import "./Footer.css";
 
 export const Footer = () => {
   return (
@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container mx-auto py-8 flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col items-center md:items-start mb-8 md:mb-0">
           <img
-            src="/Images/dromjor-main-logo.png"
+            src="src/assets/Images/dromjor-main-logo.png"
             alt="Dromjor Ventures Logo"
             className="mb-4"
           />
@@ -43,14 +43,14 @@ export const Footer = () => {
           <h3 className="text-xl font-bold">Get Our Apps On</h3>
           <div className="flex space-x-4 mt-4">
             <img
-              src="/Images/playstore.jpg"
+              src="src/assets/Images/playstore.jpg"
               alt="Google Play Store"
               width="100"
               height="40"
               className="hover:scale-105 transition-transform duration-300"
             />
             <img
-              src="/Images/appstore.jpg"
+              src="src/assets/Images/appstore.jpg"
               alt="Apple App Store"
               width="100"
               height="40"
@@ -62,7 +62,7 @@ export const Footer = () => {
           <h3 className="text-xl font-bold">Payment Methods</h3>
           <div className="flex space-x-4 mt-4">
             <img
-              src="/Images/mobile money.png"
+              src="src/assets/Images/mobile money.png"
               alt="MTN Mobile Money"
               width="150"
               height="60"
