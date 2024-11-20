@@ -1,3 +1,4 @@
+
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { BrowserRouter as Router, useLocation } from "react-router-dom";
@@ -8,6 +9,7 @@ import { HeroSlider } from "./components/HeroSlider";
 import { HeroCard } from "./components/HeroCard";
 import AppRoutes from "./components/Routes/AppRoutes";
 import { Footer } from "./components/Footer";
+import { CartItems } from "./components/CartItems"; // Include CartItems
 
 function App() {
   return (
@@ -36,6 +38,7 @@ function MainContent() {
           <HeroCard />
         </>
       )}
+      <CartItems /> {/* Add CartItems to render products and cart */}
       <AppRoutes />
     </>
   );

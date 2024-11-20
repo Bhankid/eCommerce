@@ -1,12 +1,11 @@
-
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Products } from "./Products";
 import { Cart } from "./Cart";
 
 export function CartItems() {
   const [isCartOpen, setIsCartOpen] = useState(false);
-  const [cartItems, setCartItems] = useState([]); // Initialize as an empty array
+  const [cartItems, setCartItems] = useState([]);
 
   const addToCart = (product) => {
     setCartItems((prevItems) => {
@@ -18,7 +17,7 @@ export function CartItems() {
             : item
         );
       }
-      return [...prevItems, { ...product, quantity: 1 }];
+      return [...prevItems, product];
     });
     setIsCartOpen(true);
   };
@@ -44,7 +43,8 @@ export function CartItems() {
       <Cart
         isOpen={isCartOpen}
         onClose={() => setIsCartOpen(false)}
-        cartItems={cartItems} // Ensure this is always an array
+        cartItems={cartItems}
+        hasProducts={cartItems.length > 0} // Pass hasProducts
         updateQuantity={updateQuantity}
         removeItem={removeItem}
       />
